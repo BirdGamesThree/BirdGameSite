@@ -5,7 +5,7 @@ This is the official landing page and information hub for **BirdGame** - a brows
 ## Links & Community
 
 - **Twitter/X**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
-- **Community**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
+- **Community**: [https://x.com/i/communities/1993410527867859339](https://x.com/i/communities/1993410527867859339)
 - **Watch Development**: [Coming Soon](https://pump.fun/board)
 
 ## About the Game

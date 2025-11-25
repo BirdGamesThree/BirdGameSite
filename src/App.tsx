@@ -351,13 +351,38 @@ function App() {
                 <div className="w-1 h-full bg-emerald-200 my-2 rounded-full group-hover:bg-emerald-300 transition-colors"></div>
               </div>
               <div className="pb-12 bg-white/60 p-6 rounded-2xl flex-1 border border-white shadow-sm hover:shadow-md transition-all">
-                <h3 className="text-2xl font-bold text-emerald-700 mb-2">Phase 1: The Launch (Current)</h3>
-                <p className="text-slate-700 mb-4 font-medium">Core gameplay loop and initial release.</p>
+                <h3 className="text-2xl font-bold text-emerald-700 mb-2">Phase 1: The Foundation (Working on this LIVE)</h3>
+                <p className="text-slate-700 mb-4 font-medium">
+                  I am currently building the core game <strong>LIVE on stream</strong>. You can watch every line of code and asset being created in real-time.
+                  The focus is launching the first playable mode: <strong>Free For All</strong>.
+                </p>
                 <ul className="list-disc list-inside text-slate-600 space-y-2">
-                  <li>Basic Bird PvP (Free For All)</li>
-                  <li>7-15 Player Lobbies</li>
-                  <li>Peck Mechanics & Basic Movement</li>
-                  <li>Winner Rewards Integration</li>
+                  <li>Development of Core Flight & Game Mechanics</li>
+                  <li>7-15 Player Multiplayer Networking (Photon)</li>
+                  <li>"Free For All" Map Design & Testing</li>
+                  <li>Community Playtests & Feedback Loops</li>
+                  <li>Live Working Game for Users to Play</li>
+                  <li>Integration of Winner Payout System ($5-10 Rewards)</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Phase 1.5 - Marketing */}
+            <div className="flex gap-6 group">
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-8 rounded-full bg-pink-500 flex items-center justify-center text-white font-bold shadow-lg shadow-pink-200">1.5</div>
+                <div className="w-1 h-full bg-pink-200 my-2 rounded-full group-hover:bg-pink-300 transition-colors"></div>
+              </div>
+              <div className="pb-12 bg-white/60 p-6 rounded-2xl flex-1 border border-white shadow-sm hover:shadow-md transition-all">
+                <h3 className="text-2xl font-bold text-pink-600 mb-2">Phase 1.5: The Viral Surge</h3>
+                <p className="text-slate-700 mb-4 font-medium">
+                  Once the game is playable and tokens unlock (1.5 weeks), we activate the massive marketing engine.
+                </p>
+                <ul className="list-disc list-inside text-slate-600 space-y-2">
+                  <li>Dev Wallet Unlocks (45M Tokens)</li>
+                  <li><strong>TikTok Creator Program:</strong> We pay users per 1,000 views on BirdGame content.</li>
+                  <li>Aggressive Social Media Push</li>
+                  <li>Onboarding First Wave of Players</li>
                 </ul>
               </div>
             </div>
@@ -369,13 +394,17 @@ function App() {
                 <div className="w-1 h-full bg-sky-200 my-2 rounded-full group-hover:bg-sky-300 transition-colors"></div>
               </div>
               <div className="pb-12 bg-white/60 p-6 rounded-2xl flex-1 border border-white shadow-sm hover:shadow-md transition-all">
-                <h3 className="text-2xl font-bold text-sky-600 mb-2">Phase 2: Expansion</h3>
-                <p className="text-slate-700 mb-4 font-medium">New modes and deeper mechanics.</p>
+                <h3 className="text-2xl font-bold text-sky-600 mb-2">Phase 2: Expansion & Team Modes</h3>
+                <p className="text-slate-700 mb-4 font-medium">
+                  Once Free For All is stable and the community is growing, we will expand the game with new game modes and deeper mechanics.
+                </p>
                 <ul className="list-disc list-inside text-slate-600 space-y-2">
-                  <li>"Protect Your Nest" Team Mode</li>
-                  <li>Resource Collection (Sticks/Eggs)</li>
-                  <li>Different Bird Species & Stats</li>
-                  <li>Web3 Wallet Integration</li>
+                  <li>Launch of "Protect Your Nest" (Team vs Team or Player vs Player nest defense)</li>
+                  <li>Resource Collection System (Sticks, Eggs, Materials)</li>
+                  <li>New Playable Bird Species with Unique Stats</li>
+                  <li>Item Shop: Buy guns, knives, and skins (Revenue = Buyback/Burn)</li>
+                  <li>Web3 Wallet Integration for Asset Ownership</li>
+                  <li>Global Leaderboards (Top players win SOL weekly/daily)</li>
                 </ul>
               </div>
             </div>
@@ -386,15 +415,34 @@ function App() {
                 <div className="w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold shadow-lg shadow-amber-200">3</div>
               </div>
               <div className="bg-white/60 p-6 rounded-2xl flex-1 border border-white shadow-sm hover:shadow-md transition-all">
-                <h3 className="text-2xl font-bold text-amber-600 mb-2">Phase 3: Open World</h3>
-                <p className="text-slate-700 mb-4 font-medium">The ultimate bird sandbox.</p>
+                <h3 className="text-2xl font-bold text-amber-600 mb-2">Phase 3: The Open World</h3>
+                <p className="text-slate-700 mb-4 font-medium">
+                  A massive sandbox where players can roam freely, talk to anyone, socialize, and use items in a lawless environment.
+                </p>
                 <ul className="list-disc list-inside text-slate-600 space-y-2">
-                  <li>Open World PvP Zone (GTA Style)</li>
-                  <li>Item Shop (Guns, Knives, Skins)</li>
-                  <li>Full Economic Flywheel (Buybacks)</li>
-                  <li>Persistent User Stats & Inventory</li>
+                  <li>Massive Open World Map</li>
+                  <li>Item Shop Integration (Guns, Knives, Accessories)</li>
+                  <li>Full Economic Flywheel (Revenue = Buybacks/Burns)</li>
+                  <li>Persistent Inventory & Player Housing</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Media Section */}
+      <section className="py-20 bg-white/30">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-black text-slate-800 mb-12">Gameplay & Media</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="aspect-video bg-slate-900 rounded-2xl flex items-center justify-center overflow-hidden border-4 border-white shadow-lg">
+              <p className="text-white/50 font-bold">GAMEPLAY_TRAILER.mp4</p>
+              {/* Add video iframe or tag here later */}
+            </div>
+            <div className="aspect-video bg-slate-900 rounded-2xl flex items-center justify-center overflow-hidden border-4 border-white shadow-lg">
+              <p className="text-white/50 font-bold">DEV_VLOG_01.mp4</p>
+              {/* Add video iframe or tag here later */}
             </div>
           </div>
         </div>
@@ -415,7 +463,7 @@ function App() {
             </div>
             <div className="flex gap-6">
               <a href="https://x.com/BirdGameSOL" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-white transition-colors font-semibold">Twitter</a>
-              <a href="https://x.com/BirdGameSOL" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-white transition-colors font-semibold">Community</a>
+              <a href="https://x.com/i/communities/1993410527867859339" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-white transition-colors font-semibold">Community</a>
               <a href="https://github.com/BirdGamesThree" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-white transition-colors font-semibold">Github</a>
             </div>
           </div>
