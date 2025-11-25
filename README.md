@@ -1,73 +1,30 @@
-# React + TypeScript + Vite
+# BirdGame Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official landing page and information hub for **BirdGame** - a browser-based multiplayer bird battle royale built with Unity and Photon.
 
-Currently, two official plugins are available:
+## Links & Community
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Play Now / Website**: [https://birdgamestwo.github.io/BirdGameSite/](https://birdgamestwo.github.io/BirdGameSite/) (or local dev link)
+- **Twitter/X**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
+- **Community**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
+- **Watch Development**: [https://pump.fun/board](https://pump.fun/board)
 
-## React Compiler
+## About the Game
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+BirdGame is a chaotic free-for-all where players spawn as birds in a 7-15 player lobby. The last bird standing wins crypto rewards ($5-10).
 
-## Expanding the ESLint configuration
+**Features:**
+- **No Download Required**: Play directly in your browser (WebGL).
+- **Play-to-Earn**: Winners get paid from token transaction fees.
+- **Tokenomics**: $BIRD token powers the ecosystem with buybacks and burns from in-game item sales.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Development
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Built with:
+- React
+- Vite
+- Tailwind CSS
+- Lucide React Icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Built live on stream.*
