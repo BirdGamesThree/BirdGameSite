@@ -4,10 +4,9 @@ This is the official landing page and information hub for **BirdGame** - a brows
 
 ## Links & Community
 
-- **Play Now / Website**: [https://birdgamestwo.github.io/BirdGameSite/](https://birdgamestwo.github.io/BirdGameSite/) (or local dev link)
 - **Twitter/X**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
 - **Community**: [https://x.com/BirdGameSOL](https://x.com/BirdGameSOL)
-- **Watch Development**: [https://pump.fun/board](https://pump.fun/board)
+- **Watch Development**: [Coming Soon](https://pump.fun/board)
 
 ## About the Game
 
